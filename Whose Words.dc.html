@@ -1,17 +1,403 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./support.js"></script>
+<script src="1212691f-efe7-481f-b71a-50da83fc4d65"></script>
 </head>
 <body>
 <x-dc>
-<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="#FDF5F8"></rect><rect x="120" y="188" width="90" height="24" rx="6" fill="#7A3E9C"></rect><rect x="210" y="188" width="70" height="24" rx="6" fill="#3E6E86"></rect><text x="200" y="150" font-family="Georgia,serif" font-size="46" fill="#2A2622" text-anchor="middle">Whose</text><text x="200" y="270" font-family="Georgia,serif" font-size="20" fill="#6B645B" text-anchor="middle" font-style="italic">words?</text></svg></template>
+
 <helmet>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <style>/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("6d442a73-de56-4ddd-81dd-e69518c9a5b0") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("74cabaa8-e17c-4ffc-b609-2de540e3dc16") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("7ed1cffa-4400-4c4d-a167-5fee4a2f19e3") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("465e5417-975a-4787-a9eb-4c4591bac63c") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("40863b3d-a2ad-42df-a709-57dde3e20089") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("ff1c40b5-2a15-460f-8c7f-2de7c55216f9") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("de74c741-ece6-4917-87f6-c4a9f56edf0d") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("6d442a73-de56-4ddd-81dd-e69518c9a5b0") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("74cabaa8-e17c-4ffc-b609-2de540e3dc16") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("7ed1cffa-4400-4c4d-a167-5fee4a2f19e3") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("465e5417-975a-4787-a9eb-4c4591bac63c") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("40863b3d-a2ad-42df-a709-57dde3e20089") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("ff1c40b5-2a15-460f-8c7f-2de7c55216f9") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("de74c741-ece6-4917-87f6-c4a9f56edf0d") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("6d442a73-de56-4ddd-81dd-e69518c9a5b0") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("74cabaa8-e17c-4ffc-b609-2de540e3dc16") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("7ed1cffa-4400-4c4d-a167-5fee4a2f19e3") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("465e5417-975a-4787-a9eb-4c4591bac63c") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("40863b3d-a2ad-42df-a709-57dde3e20089") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("ff1c40b5-2a15-460f-8c7f-2de7c55216f9") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("de74c741-ece6-4917-87f6-c4a9f56edf0d") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("6d442a73-de56-4ddd-81dd-e69518c9a5b0") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("74cabaa8-e17c-4ffc-b609-2de540e3dc16") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("7ed1cffa-4400-4c4d-a167-5fee4a2f19e3") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("465e5417-975a-4787-a9eb-4c4591bac63c") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("40863b3d-a2ad-42df-a709-57dde3e20089") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("ff1c40b5-2a15-460f-8c7f-2de7c55216f9") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("de74c741-ece6-4917-87f6-c4a9f56edf0d") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("21a0c325-9ab7-43d3-a564-ecb1b919505f") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("44efe606-428b-40fc-a809-3d13f0806a35") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("ac700da9-4b90-47ac-82e0-68fabd0af5b6") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("21a0c325-9ab7-43d3-a564-ecb1b919505f") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("44efe606-428b-40fc-a809-3d13f0806a35") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("ac700da9-4b90-47ac-82e0-68fabd0af5b6") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("7136d6bb-1845-432b-9713-b538cf89a3c7") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("34983b56-b868-465b-96c7-1e0c15b30ae2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("f8f4991f-02c6-403e-bc71-aed371814c13") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("7136d6bb-1845-432b-9713-b538cf89a3c7") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("34983b56-b868-465b-96c7-1e0c15b30ae2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("f8f4991f-02c6-403e-bc71-aed371814c13") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("7136d6bb-1845-432b-9713-b538cf89a3c7") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("34983b56-b868-465b-96c7-1e0c15b30ae2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("f8f4991f-02c6-403e-bc71-aed371814c13") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
   <style>
     /* Only rules that cannot be inline live here: resets, keyframes, fonts. */
     * { box-sizing: border-box; }
@@ -33,7 +419,7 @@
 
     <!-- Controls: reduced-motion toggle. Sticky so it's always reachable. -->
     <div style="display:flex; justify-content:flex-end; padding:18px 0 0;">
-      <button onClick="{{ toggleMotion }}" aria-pressed="{{ reduced }}" style="font-family:'Inter',sans-serif; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:#7A3E9C; background:transparent; border:1.5px solid #DDD6CA; border-radius:999px; padding:7px 13px; cursor:pointer;" style-hover="border-color:#7A3E9C; color:#2A2622;" style-focus="outline:3px solid #3E6E86; outline-offset:2px;">{{ motionLabel }}</button>
+      <button onclick="{{ toggleMotion }}" aria-pressed="{{ reduced }}" style="font-family:'Inter',sans-serif; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:#7A3E9C; background:transparent; border:1.5px solid #DDD6CA; border-radius:999px; padding:7px 13px; cursor:pointer;" style-hover="border-color:#7A3E9C; color:#2A2622;" style-focus="outline:3px solid #3E6E86; outline-offset:2px;">{{ motionLabel }}</button>
     </div>
 
     <!-- ===== HEADER / FRAMING (always visible) ===== -->
@@ -66,7 +452,7 @@
           </ol>
         </div>
 
-        <button onClick="{{ begin }}" style="margin-top:30px; font-family:'Inter',sans-serif; font-weight:600; font-size:17px; color:#FDF5F8; background:#2A2622; border:none; border-radius:14px; padding:16px 28px; cursor:pointer;" style-hover="background:#7A3E9C;" style-focus="outline:3px solid #3E6E86; outline-offset:3px;">Begin the conversation →</button>
+        <button onclick="{{ begin }}" style="margin-top:30px; font-family:'Inter',sans-serif; font-weight:600; font-size:17px; color:#FDF5F8; background:#2A2622; border:none; border-radius:14px; padding:16px 28px; cursor:pointer;" style-hover="background:#7A3E9C;" style-focus="outline:3px solid #3E6E86; outline-offset:3px;">Begin the conversation →</button>
       </section>
     </sc-if>
 
@@ -153,7 +539,7 @@
 
           <!-- Slow lane: decode the next word (effortful) -->
           <sc-if value="{{ showDecodeBtn }}" hint-placeholder-val="{{ false }}">
-            <button onClick="{{ decodeNext }}" style="margin-top:20px; font-family:'Inter'; font-weight:600; font-size:15px; color:#552873; background:transparent; border:1.5px solid #7A3E9C; border-radius:12px; padding:12px 20px; cursor:pointer;" style-hover="background:#ECE0F5;" style-focus="outline:3px solid #3E6E86; outline-offset:2px;">Decode the next word →</button>
+            <button onclick="{{ decodeNext }}" style="margin-top:20px; font-family:'Inter'; font-weight:600; font-size:15px; color:#552873; background:transparent; border:1.5px solid #7A3E9C; border-radius:12px; padding:12px 20px; cursor:pointer;" style-hover="background:#ECE0F5;" style-focus="outline:3px solid #3E6E86; outline-offset:2px;">Decode the next word →</button>
             <div style="font-family:'Inter',sans-serif; font-size:11px; color:#7A3E9C; margin-top:10px;">one word, in your own voice · −{{ nextWordCost }} energy</div>
           </sc-if>
 
@@ -172,8 +558,8 @@
             <p style="font-family:'Newsreader',Georgia,serif; font-size:23px; line-height:1.45; margin:0 0 6px;"><span style="color:#9A9188;">{{ offerPrefix }}</span> <span style="color:#2E5A6E; font-weight:500;">{{ aiPreview }}</span></p>
             <p style="font-size:13px; color:#5B6B73; margin:6px 0 20px; font-family:'Inter';">It’s close. It isn’t quite what you meant.</p>
             <div style="display:flex; flex-wrap:wrap; gap:12px;">
-              <button onClick="{{ acceptOffer }}" style="font-family:'Inter'; font-weight:600; font-size:15px; color:#fff; background:#3E6E86; border:none; border-radius:12px; padding:13px 22px; cursor:pointer;" style-hover="background:#2E5A6E;" style-focus="outline:3px solid #7A3E9C; outline-offset:2px;">Accept · finish instantly</button>
-              <button onClick="{{ insistOffer }}" disabled="{{ insistDisabled }}" style="font-family:'Inter'; font-weight:600; font-size:15px; color:{{ insistTextColor }}; background:transparent; border:1.5px solid {{ insistBorderColor }}; border-radius:12px; padding:13px 22px; cursor:{{ insistCursor }};" style-hover="background:#ECE0F5;" style-focus="outline:3px solid #3E6E86; outline-offset:2px;">{{ insistLabel }}</button>
+              <button onclick="{{ acceptOffer }}" style="font-family:'Inter'; font-weight:600; font-size:15px; color:#fff; background:#3E6E86; border:none; border-radius:12px; padding:13px 22px; cursor:pointer;" style-hover="background:#2E5A6E;" style-focus="outline:3px solid #7A3E9C; outline-offset:2px;">Accept · finish instantly</button>
+              <button onclick="{{ insistOffer }}" disabled="{{ insistDisabled }}" style="font-family:'Inter'; font-weight:600; font-size:15px; color:{{ insistTextColor }}; background:transparent; border:1.5px solid {{ insistBorderColor }}; border-radius:12px; padding:13px 22px; cursor:{{ insistCursor }};" style-hover="background:#ECE0F5;" style-focus="outline:3px solid #3E6E86; outline-offset:2px;">{{ insistLabel }}</button>
             </div>
           </div>
         </sc-if>
@@ -182,7 +568,7 @@
         <sc-if value="{{ showNext }}" hint-placeholder-val="{{ false }}">
           <div style="margin-top:24px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
             <span style="font-family:'Inter',sans-serif; font-size:12px; color:#7A3E9C;">✓ sent · {{ turnSeconds }}s</span>
-            <button onClick="{{ nextTurn }}" style="font-family:'Inter'; font-weight:600; font-size:16px; color:#FDF5F8; background:#2A2622; border:none; border-radius:12px; padding:14px 24px; cursor:pointer;" style-hover="background:#7A3E9C;" style-focus="outline:3px solid #3E6E86; outline-offset:3px;">{{ nextLabel }}</button>
+            <button onclick="{{ nextTurn }}" style="font-family:'Inter'; font-weight:600; font-size:16px; color:#FDF5F8; background:#2A2622; border:none; border-radius:12px; padding:14px 24px; cursor:pointer;" style-hover="background:#7A3E9C;" style-focus="outline:3px solid #3E6E86; outline-offset:3px;">{{ nextLabel }}</button>
           </div>
         </sc-if>
 
@@ -238,7 +624,7 @@
           None of this measures a person’s worth or will. It measures a budget: energy, time, attention, and how a tool quietly shapes what gets spent.
         </p>
 
-        <button onClick="{{ restart }}" style="margin-top:30px; font-family:'Inter'; font-weight:600; font-size:15px; color:#552873; background:transparent; border:1.5px solid #7A3E9C; border-radius:12px; padding:13px 22px; cursor:pointer;" style-hover="background:#ECE0F5;" style-focus="outline:3px solid #3E6E86; outline-offset:2px;">Start again · make different choices</button>
+        <button onclick="{{ restart }}" style="margin-top:30px; font-family:'Inter'; font-weight:600; font-size:15px; color:#552873; background:transparent; border:1.5px solid #7A3E9C; border-radius:12px; padding:13px 22px; cursor:pointer;" style-hover="background:#ECE0F5;" style-focus="outline:3px solid #3E6E86; outline-offset:2px;">Start again · make different choices</button>
       </section>
     </sc-if>
 
@@ -249,84 +635,53 @@
          ============================================================ -->
     <div style="height:1px; background:#DDD6CA; margin:56px 0 40px;"></div>
 
-    <section aria-label="Grounded facts about real speech BCIs">
-      <div style="font-family: 'Inter',sans-serif; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: #7A3E9C; margin-bottom: 18px">What is real · what isn’t</div>
-
-      <p style="font-size: 16px; line-height: 1.6; color: #3A3630; margin: 0 0 26px; max-width: 62ch; font-family: 'Inter',sans-serif">The interaction above is a Wizard of Oz prototype, a common design method where the ‘smart’ system is faked so you can test the experience before building the real thing. The responses are scripted. The energy meter and the word predictions represent a real struggle: the more an AI fills in what you’re trying to say, the faster you can “speak,” but the harder it can be to keep the words truly yours. That slow loosening of authorship is what is called drift. The trade-off you just felt is real: studies have found people giving up some control of their exact words for speed, and AI assistance quietly changing what a person meant. The energy meter and the fatigue framing help you empathize with the people using these systems.</p>
-
-      <div style="display:flex; flex-direction:column; gap:2px;">
-
-        <!-- GROUP A: the real-world subject the piece is about (context, not build). -->
-        <div style="padding:26px 0 4px; border-top:2px solid #2A2622;">
-          <div style="font-family: 'Inter',sans-serif; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #2A2622; font-weight: 600; margin-bottom: 6px">A · THE SUBJECT</div>
-          <p style="font-size:13.5px; line-height:1.55; color:#6B645B; margin:0; max-width:60ch;">Below are some studies about this topic.&nbsp;</p>
-        </div>
-
-        <div style="padding:18px 0; border-top:1px solid #DDD6CA;">
-          <div style="font-family: 'Inter',sans-serif; font-size: 11px; letter-spacing: .1em; color: #7A3E9C; margin-bottom: 7px">BRAINGATE · CONSORTIUM</div>
-          <p style="font-size:15.5px; line-height:1.55; color:#3A3630; margin:0;">A long-running research collaboration testing implanted intracortical microelectrode (“Utah”) arrays for people with paralysis, across several institutions over roughly two decades.&nbsp;</p>
-        </div>
-
-        <div style="padding:18px 0; border-top:1px solid #DDD6CA;">
-          <div style="font-family: 'Inter',sans-serif; font-size: 11px; letter-spacing: .1em; color: #7A3E9C; margin-bottom: 7px">STANFORD / BRAINGATE · NATURE 2023</div>
-          <p style="font-size:15.5px; line-height:1.55; color:#3A3630; margin:0 0 7px;">An intracortical speech BCI decoded the attempted speech of a participant with ALS at <strong><span style="font-weight: normal;">62 words per minute</span></strong>, with a 23.8% word-error rate on a 125,000-word vocabulary. The authors note this “begins to approach the speed of natural conversation (160 words per minute).”</p>
-          <a href="https://www.nature.com/articles/s41586-023-06377-x" target="_blank" rel="noopener" style="font-family:'Inter',sans-serif; font-size:12px; color:#3E6E86; text-decoration:none; border-bottom:1px solid #CDDDE5;">Willett et al., Nature 620, 1031-1036 (2023)</a>
-        </div>
-
-        <div style="padding:18px 0; border-top:1px solid #DDD6CA;">
-          <div style="font-family: 'Inter',sans-serif; font-size: 11px; letter-spacing: .1em; color: #7A3E9C; margin-bottom: 7px">UCSF / UC BERKELEY · NATURE 2023</div>
-          <p style="font-size:15.5px; line-height:1.55; color:#3A3630; margin:0 0 7px;">Using high-density recordings from the cortical surface, researchers decoded text at a <strong><span style="font-weight: normal;">median 78 words per minute</span></strong> (25% median word-error rate) for a participant paralyzed by a brainstem stroke. Her existing communication device ran at about 14 wpm.</p>
-          <a href="https://www.nature.com/articles/s41586-023-06443-4" target="_blank" rel="noopener" style="font-family:'Inter',sans-serif; font-size:12px; color:#3E6E86; text-decoration:none; border-bottom:1px solid #CDDDE5;">Metzger et al., Nature 620, 1037-1046 (2023)</a>
-        </div>
-
-        <div style="padding:18px 0; border-top:1px solid #DDD6CA;">
-          <div style="font-family: 'Inter',sans-serif; font-size: 11px; letter-spacing: .1em; color: #7A3E9C; margin-bottom: 7px">UC DAVIS / BRAINGATE · 2024-2025</div>
-          
-          <p style="font-size:15.5px; line-height:1.55; color:#3A3630; margin:0 0 7px;">For a participant with ALS (Casey Harrell), a 256-electrode system reached about <strong><span style="font-weight: normal;">97-99% word accuracy</span></strong> and was used in self-paced conversation (reported around 32-56 wpm) for hundreds of hours.</p><a href="https://health.ucdavis.edu/news/headlines/new-brain-computer-interface-allows-man-with-als-to-speak-again/2024/08" target="_blank" rel="noopener" style="font-family:'Inter',sans-serif; font-size:12px; color:#3E6E86; text-decoration:none; border-bottom:1px solid #CDDDE5;">Card et al., NEJM (2024); UC Davis Health</a>
-        </div>
-
-        <div style="padding:18px 0; border-top:1px solid #DDD6CA;">
-          <div style="font-family: 'Inter',sans-serif; font-size: 11px; letter-spacing: .1em; color: #7A3E9C; margin-bottom: 7px">NOTES ON THE STUDIES ABOVE</div>
-          <ul style="margin:0; padding:0 0 0 18px; font-size:15px; line-height:1.6; color:#3A3630;">
-            <li style="margin-bottom:6px;">Each result above involves a <strong><span style="font-weight: normal;">single participant</span></strong> in an investigational trial, not an approved product. Whether it generalizes is not yet known.</li>
-            <li style="margin-bottom:6px;">Speeds vary by study, vocabulary size, and whether measured in controlled tests or free conversation. Numbers are&nbsp;<strong><span style="font-weight: normal;">ranges, not constants</span></strong>. Casual speech is roughly 150-160 wpm.</li>
-            <li>These systems decode <strong><span style="font-weight: normal;">attempted speech, </span></strong>which are&nbsp;signals from the motor cortex as a person tries to speak. The system cannot “mind read.”</li>
-          </ul>
-        </div>
-
-        <!-- GROUP B: the design lineage of the interaction mechanic itself. -->
-        <div style="padding:30px 0 4px; border-top:2px solid #2A2622; margin-top:14px;">
-          <div style="font-family: 'Inter',sans-serif; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #2A2622; font-weight: 600; margin-bottom: 6px">B · How this interaction is modelled</div>
-          <p style="font-size:13.5px; line-height:1.55; color:#6B645B; margin:0; max-width:60ch;">Below are studies that influenced the design of&nbsp;this prototype. The studies are about the decision-science behind the "accept-or-correct" mechanism. These are references that help describe how the prototype works.</p>
-        </div>
-
-        <div style="padding:18px 0; border-top:1px solid #DDD6CA;">
-          
-          <p style="font-size:15.5px; line-height:1.55; color:#3A3630; margin:0 0 12px;">The accept-or-correct mechanic above is structured as a <strong>Judge-Advisor System</strong> (JAS): one person (the “judge”) forms a response, receives advice, then commits to a final answer. It is the standard experimental paradigm for studying advice-taking. Established by Sniezek &amp; Buckley in 1995 and, through a 2022 meta-analysis, still the most commonly applied measure of advice-taking in the field for thirty years.</p><p style="font-size:15.5px; line-height:1.55; color:#3A3630; margin:0 0 10px;">A later study by the same authors found that an <strong>ongoing relationship can inflate trust</strong> independent of an advisor’s actual accuracy. Across two experiments, one with strangers and one with people in ongoing relationships, judges gave higher and more variable trust ratings of their partner than advisors did, suggesting judges were more motivated to evaluate trust. It is listed here as related context,&nbsp;<strong><span style="font-weight: normal;">not</span></strong> a force this prototype reproduces. What actually drives the choice above is: <strong>energy</strong>. You accept an attempt because correcting it costs more energy than you have left, not because familiarity has made you "trust it."</p>
-          <a href="https://doi.org/10.1006/obhd.1995.1040" target="_blank" rel="noopener" style="font-family:'Inter',sans-serif; font-size:12px; color:#3E6E86; text-decoration:none; border-bottom:1px solid #CDDDE5; display:inline-block; margin-bottom:6px;">Sniezek &amp; Buckley, Org. Behavior &amp; Human Decision Processes 62(2), 159-174 (1995)</a><br>
-          <a href="https://doi.org/10.1006/obhd.2000.2926" target="_blank" rel="noopener" style="font-family:'Inter',sans-serif; font-size:12px; color:#3E6E86; text-decoration:none; border-bottom:1px solid #CDDDE5;">Sniezek &amp; Van Swol, Org. Behavior &amp; Human Decision Processes 84(2), 288-307 (2001)</a>
-        </div>
-
-        <!-- GROUP C: the authorship / speech-ownership concern this piece centers on. -->
-        <div style="padding:30px 0 4px; border-top:2px solid #2A2622; margin-top:14px;">
-          <div style="font-family: 'Inter',sans-serif; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #2A2622; font-weight: 600; margin-bottom: 6px">C · Whose words, in real research</div>
-          <div style="box-sizing: border-box; display: flex; flex-direction: column; gap: 12px"><p style="font-size: 13.5px; line-height: 1.55; color: #6B645B; margin: 0; max-width: 60ch">A question central to this prototype is "who owns the words when a machine helps produce them?" It's a concern speech-BCI researchers are actively raising.</p></div>
-        </div>
-
-        <div style="padding:18px 0; border-top:1px solid #DDD6CA;">
-          <p style="font-size:15.5px; line-height:1.55; color:#3A3630; margin:0 0 12px;">A 2024 editorial in <em>Frontiers in Human Neuroscience</em> frames the open question directly: how to preserve <strong>user agency and "speech ownership"</strong> as assistive communication devices are driven by neural signals. It sets the agenda; it does not claim to have settled it.</p>
-          <a href="https://doi.org/10.3389/fnhum.2024.1468938" target="_blank" rel="noopener" style="font-family:'Inter',sans-serif; font-size:12px; color:#3E6E86; text-decoration:none; border-bottom:1px solid #CDDDE5;">Freudenburg, Berezutskaya &amp; Herbert, Front. Hum. Neurosci. 18 (2024)</a>
-        </div>
-
-      </div>
-
-      <p style="font-size: 13px; line-height: 1.6; color: #7A3E9C; margin: 26px 0 0; font-family: 'Inter',sans-serif">Built as a "perspective" exercise.</p>
+    <section aria-label="Grounded facts about real speech BCIs" class="ww-studies">
+<style>
+.ww-group{--t:#7A3E9C;--ts:rgba(122,62,156,.45);}
+.ww-card{background:#fff;border:1px solid #E7E0D5;border-radius:14px;margin-bottom:12px;transition:box-shadow .15s ease,transform .15s ease;}
+.ww-card:hover{box-shadow:0 12px 32px -16px var(--ts);transform:translateY(-2px);}
+.ww-card>summary{list-style:none;cursor:pointer;display:flex;gap:13px;align-items:flex-start;padding:17px 18px;}
+.ww-card>summary::-webkit-details-marker{display:none;}
+.ww-pill{flex:none;background:var(--t);color:#fff;border-radius:999px;padding:5px 10px;font:600 11px/1.2 'Inter',sans-serif;white-space:nowrap;}
+.ww-txt{flex:1 1 auto;min-width:0;}
+.ww-venue{display:block;color:var(--t);font:10px/1.4 'Inter',sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:5px;}
+.ww-title{display:block;font:500 19px/1.25 'Newsreader',Georgia,serif;color:#2A2622;}
+.ww-sum{display:block;font:13px/1.5 'Inter',sans-serif;color:#6B645B;margin-top:6px;}
+.ww-card[open] .ww-sum{display:none;}
+.ww-chip{flex:none;position:relative;width:28px;height:28px;border:1.5px solid var(--t);border-radius:50%;display:grid;place-items:center;color:var(--t);font:500 19px/1 'Inter',sans-serif;}
+.ww-chip::after{content:'+';}
+.ww-card[open] .ww-chip::after{content:'\2212';}
+.ww-ring{position:absolute;inset:-1.5px;transform:rotate(-90deg);pointer-events:none;overflow:visible;}
+.ww-ring circle{fill:none;stroke:#FFD400;stroke-width:3;stroke-linecap:round;stroke-dasharray:88;stroke-dashoffset:88;transition:stroke-dashoffset .3s cubic-bezier(.3,.85,.35,1);}
+.ww-card>summary:hover .ww-ring circle{stroke-dashoffset:0;}
+.ww-body{padding:0 18px 20px;}
+.ww-card[open] .ww-body{animation:ww-card-rise .35s ease;}
+@keyframes ww-card-rise{from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:none;}}
+.ww-stat{display:flex;align-items:baseline;gap:11px;margin:2px 0 15px;flex-wrap:wrap;}
+.ww-num{font:600 30px/1.05 'Newsreader',Georgia,serif;color:var(--t);}
+.ww-lab{font:12px/1.4 'Inter',sans-serif;color:#6B645B;}
+.ww-detail{font:400 14.5px/1.6 'Inter',sans-serif;color:#3A3630;margin:0 0 16px;}
+.ww-quote{background:#FAF6F1;border-left:3px solid var(--t);border-radius:0 10px 10px 0;padding:15px 18px;font:italic 400 20px/1.4 'Newsreader',Georgia,serif;color:#2A2622;margin:0 0 16px;}
+.ww-link{display:inline-block;font:400 12px/1.5 'Inter',sans-serif;color:#3E6E86;text-decoration:none;border-bottom:1px solid #CDDDE5;}
+.ww-noteh{font:600 11px/1.4 'Inter',sans-serif;letter-spacing:.14em;color:#6B645B;text-transform:uppercase;margin:30px 0 12px;padding-top:18px;border-top:1px solid #DDD6CA;}
+.ww-note{display:flex;gap:8px;font:400 14px/1.6 'Inter',sans-serif;color:#3A3630;margin-bottom:8px;max-width:62ch;}
+.ww-note span:first-child{color:#6B645B;}
+@media (prefers-reduced-motion:reduce){.ww-card,.ww-ring circle,.ww-card[open] .ww-body{transition:none;animation:none;}}
+</style>
+<div style="font-family: 'Inter',sans-serif; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: #7A3E9C; margin-bottom: 18px">What is real · what isn’t</div>
+<p style="font-size: 16px; line-height: 1.6; color: #3A3630; margin: 0 0 14px; max-width: 62ch; font-family: 'Inter',sans-serif">The interaction above is a Wizard of Oz prototype, a common design method where the ‘smart’ system is faked so you can test the experience before building the real thing. The responses are scripted. The energy meter and the word predictions represent a real struggle: the more an AI fills in what you’re trying to say, the faster you can “speak,” but the harder it can be to keep the words truly yours. That slow loosening of authorship is what is called drift. The trade-off you just felt is real: studies have found people giving up some control of their exact words for speed, and AI assistance quietly changing what a person meant. The energy meter and the fatigue framing help you empathize with the people using these systems.</p>
+<p style="font-size: 13px; color:#6B645B; margin:0 0 26px; font-family:'Inter',sans-serif">Tap any study to expand it.</p>
+<div class="ww-group" style="--t:#7A3E9C;--ts:rgba(122,62,156,.45)"><details class="ww-card"><summary><span class="ww-pill">2004→</span><span class="ww-txt"><span class="ww-venue">BrainGate · Consortium</span><span class="ww-title">Two decades of implanted arrays</span><span class="ww-sum">A long-running collaboration testing implanted “Utah” arrays with people who have paralysis.</span></span><span class="ww-chip"><svg class="ww-ring" viewBox="0 0 31 31"><circle cx="15.5" cy="15.5" r="14"></circle></svg></span></summary><div class="ww-body"><p class="ww-detail">A multi-institution collaboration testing implanted intracortical “Utah” microelectrode arrays with people who have paralysis, developed and refined across several institutions over roughly two decades.</p><blockquote class="ww-quote">Two decades of proving that intent can be read from motor cortex in people living with paralysis.</blockquote></div></details><details class="ww-card"><summary><span class="ww-pill">2023</span><span class="ww-txt"><span class="ww-venue">Stanford / BrainGate · Nature 2023</span><span class="ww-title">Attempted speech at 62 wpm</span><span class="ww-sum">An intracortical speech BCI decoded the attempted speech of a participant with ALS.</span></span><span class="ww-chip"><svg class="ww-ring" viewBox="0 0 31 31"><circle cx="15.5" cy="15.5" r="14"></circle></svg></span></summary><div class="ww-body"><div class="ww-stat"><span class="ww-num">62 wpm</span><span class="ww-lab">23.8% word-error · 125k-word vocabulary</span></div><p class="ww-detail">An intracortical speech BCI decoded the attempted speech of a participant with ALS at 62 words per minute, over a 125,000-word vocabulary, from motor-cortex signals.</p><blockquote class="ww-quote">“…begins to approach the speed of natural conversation (160 words per minute).”</blockquote><a class="ww-link" href="https://www.nature.com/articles/s41586-023-06377-x" target="_blank" rel="noopener">Willett et al., Nature 620, 1031–1036 (2023) ↗</a></div></details><details class="ww-card"><summary><span class="ww-pill">2023</span><span class="ww-txt"><span class="ww-venue">UCSF / UC Berkeley · Nature 2023</span><span class="ww-title">78 wpm from the cortical surface</span><span class="ww-sum">High-density surface recordings decoded text for a participant paralyzed by a brainstem stroke.</span></span><span class="ww-chip"><svg class="ww-ring" viewBox="0 0 31 31"><circle cx="15.5" cy="15.5" r="14"></circle></svg></span></summary><div class="ww-body"><div class="ww-stat"><span class="ww-num">78 wpm</span><span class="ww-lab">median · her old device ran ~14 wpm</span></div><p class="ww-detail">Using high-density recordings from the cortical surface, researchers decoded text at a median 78 words per minute (25% median word-error rate) for a participant paralyzed by a brainstem stroke. Her existing communication device ran at about 14 wpm.</p><blockquote class="ww-quote">From 14 words a minute to 78, the jump in speed this whole prototype asks you to feel.</blockquote><a class="ww-link" href="https://www.nature.com/articles/s41586-023-06443-4" target="_blank" rel="noopener">Metzger et al., Nature 620, 1037–1046 (2023) ↗</a></div></details><details class="ww-card"><summary><span class="ww-pill">2024</span><span class="ww-txt"><span class="ww-venue">UC Davis / BrainGate · 2024</span><span class="ww-title">97–99% accuracy in real conversation</span><span class="ww-sum">For a participant with ALS (Casey Harrell), a 256-electrode system was used in self-paced conversation.</span></span><span class="ww-chip"><svg class="ww-ring" viewBox="0 0 31 31"><circle cx="15.5" cy="15.5" r="14"></circle></svg></span></summary><div class="ww-body"><div class="ww-stat"><span class="ww-num">97–99%</span><span class="ww-lab">word accuracy · ~32–56 wpm in use</span></div><p class="ww-detail">A 256-electrode system reached about 97–99% word accuracy for a participant with ALS (Casey Harrell), used in self-paced conversation (reported around 32–56 wpm) for hundreds of hours.</p><blockquote class="ww-quote">Hundreds of hours of real conversation, where “good enough” stops being a demo and becomes a daily voice.</blockquote><a class="ww-link" href="https://health.ucdavis.edu/news/headlines/new-brain-computer-interface-allows-man-with-als-to-speak-again/2024/08" target="_blank" rel="noopener">Card et al., NEJM (2024) · UC Davis Health ↗</a></div></details></div>
+<div class="ww-noteh">Notes on the studies above</div><div class="ww-note"><span>·</span><span>Each result involves a single participant in an investigational trial, not an approved product. Whether it generalizes is not yet known.</span></div><div class="ww-note"><span>·</span><span>Speeds vary by study, vocabulary size, and controlled tests vs. free conversation. Numbers are ranges, not constants. Casual speech is roughly 150–160 wpm.</span></div><div class="ww-note"><span>·</span><span>These systems decode attempted speech, signals from the motor cortex as a person tries to speak. They cannot “mind-read.”</span></div>
+<div class="ww-group" style="--t:#3E6E86;--ts:rgba(62,110,134,.45)"><details class="ww-card"><summary><span class="ww-pill">1995</span><span class="ww-txt"><span class="ww-venue">Sniezek &amp; Buckley · 1995</span><span class="ww-title">The Judge–Advisor System</span><span class="ww-sum">The standard paradigm for studying how people take advice.</span></span><span class="ww-chip"><svg class="ww-ring" viewBox="0 0 31 31"><circle cx="15.5" cy="15.5" r="14"></circle></svg></span></summary><div class="ww-body"><p class="ww-detail">The accept-or-correct moment in the prototype is a Judge–Advisor System: a “judge” forms a response, receives advice, then commits to a final answer. A 2022 meta-analysis found it still the most-used measure of advice-taking, thirty years on.</p><blockquote class="ww-quote">Form a response, receive advice, then commit: exactly the accept-or-correct beat you just played.</blockquote><a class="ww-link" href="https://doi.org/10.1006/obhd.1995.1040" target="_blank" rel="noopener">Sniezek &amp; Buckley, OBHDP 62(2), 159–174 (1995) ↗</a></div></details><details class="ww-card"><summary><span class="ww-pill">2001</span><span class="ww-txt"><span class="ww-venue">Sniezek &amp; Van Swol · 2001</span><span class="ww-title">Familiarity can inflate trust</span><span class="ww-sum">An ongoing relationship can raise trust independent of an advisor’s accuracy.</span></span><span class="ww-chip"><svg class="ww-ring" viewBox="0 0 31 31"><circle cx="15.5" cy="15.5" r="14"></circle></svg></span></summary><div class="ww-body"><p class="ww-detail">Judges gave higher, more variable trust ratings of a partner than advisors did. An ongoing relationship can inflate trust independent of actual accuracy. In the prototype, though, energy drives the choice, not familiarity: you accept because correcting costs more than you have left.</p><blockquote class="ww-quote">Here it isn’t trust that makes you take the machine’s words: it’s that fixing them costs energy you don’t have.</blockquote><a class="ww-link" href="https://doi.org/10.1006/obhd.2000.2926" target="_blank" rel="noopener">Sniezek &amp; Van Swol, OBHDP 84(2), 288–307 (2001) ↗</a></div></details></div>
+<div class="ww-group" style="--t:#8A2E6B;--ts:rgba(138,46,107,.45)"><details class="ww-card"><summary><span class="ww-pill">2023</span><span class="ww-txt"><span class="ww-venue">Sankaran et al. · 2023</span><span class="ww-title">Designing for user agency</span><span class="ww-sum">Recommendations for promoting user agency in speech neuroprostheses.</span></span><span class="ww-chip"><svg class="ww-ring" viewBox="0 0 31 31"><circle cx="15.5" cy="15.5" r="14"></circle></svg></span></summary><div class="ww-body"><p class="ww-detail">Recommendations for promoting user agency in the design of speech neuroprostheses, arguing that agency belongs at the center of the design, not the edges.</p><blockquote class="ww-quote">Agency as a design goal, not an afterthought: the principle this prototype tries to make you feel.</blockquote><a class="ww-link" href="https://doi.org/10.3389/fnhum.2023.1298129" target="_blank" rel="noopener">Sankaran, Moses, Chiong &amp; Chang, FHN 17 (2023) ↗</a></div></details><details class="ww-card"><summary><span class="ww-pill">2024</span><span class="ww-txt"><span class="ww-venue">Freudenburg et al. · 2024</span><span class="ww-title">Preserving “speech ownership”</span><span class="ww-sum">A 2024 editorial frames the open question of agency as neural devices produce speech.</span></span><span class="ww-chip"><svg class="ww-ring" viewBox="0 0 31 31"><circle cx="15.5" cy="15.5" r="14"></circle></svg></span></summary><div class="ww-body"><p class="ww-detail">A 2024 editorial in Frontiers in Human Neuroscience frames the question directly: how to preserve user agency and “speech ownership” as assistive communication devices are driven by neural signals.</p><blockquote class="ww-quote">“…preserve user agency and ‘speech ownership’ as assistive communication devices are driven by neural signals.”</blockquote><a class="ww-link" href="https://doi.org/10.3389/fnhum.2024.1468938" target="_blank" rel="noopener">Freudenburg, Berezutskaya &amp; Herbert, FHN 18 (2024) ↗</a></div></details></div>
+<p style="font-size: 13px; line-height: 1.6; color: #7A3E9C; margin: 26px 0 0; font-family: 'Inter',sans-serif">Built as a “perspective” exercise.</p>
     </section>
 
   </main>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props="{
+<script type="text/x-dc" data-dc-script="" data-props="{
   &quot;$preview&quot;: { &quot;width&quot;: 900, &quot;height&quot;: 1500 },
   &quot;startEnergy&quot;: { &quot;editor&quot;: &quot;range&quot;, &quot;default&quot;: 100, &quot;min&quot;: 60, &quot;max&quot;: 140, &quot;step&quot;: 5, &quot;tsType&quot;: &quot;number&quot;, &quot;section&quot;: &quot;The bargain&quot;, &quot;unit&quot;: &quot;&quot; },
   &quot;openingEffort&quot;: { &quot;editor&quot;: &quot;range&quot;, &quot;default&quot;: 3, &quot;min&quot;: 1, &quot;max&quot;: 8, &quot;step&quot;: 1, &quot;tsType&quot;: &quot;number&quot;, &quot;section&quot;: &quot;The bargain&quot;, &quot;unit&quot;: &quot;&quot; },
@@ -669,5 +1024,6 @@ class Component extends DCLogic {
   }
 }
 </script>
-</body>
-</html>
+
+
+</body></html>

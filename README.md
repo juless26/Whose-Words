@@ -12,11 +12,18 @@ and a grounded, cited facts panel.
 ## Files
 
 - **`Whose Words.dc.html`** — the SOURCE. Read and edit this one.
-- **`index.html`** — the self-contained ~1MB build (fonts + runtime inlined), renamed from
-  `Whose Words.html` so it deploys as a site root (Netlify / GitHub Pages serve `index.html`).
-  Runs offline by double-clicking. Do NOT hand-edit; it's generated from the source — after a
-  rebuild, copy the bundler's `Whose Words.html` output over `index.html`.
+- **`index.html`** — the self-contained ~1MB deploy build (fonts + runtime inlined). Serves as
+  the site root on Netlify / GitHub Pages. Do NOT hand-edit — it embeds the source verbatim.
+- **`build.py`** — regenerates `index.html` from the source. **Workflow to change anything:**
+  edit `Whose Words.dc.html`, run `python3 build.py`, then commit + push (Netlify redeploys).
 - **`support.js`** — the small runtime the source depends on (see below). Don't edit.
+
+## The studies section is native, editable HTML/CSS
+
+The "What is real / what isn't" studies are expandable cards built with plain HTML `<details>`
+(click to expand) and CSS (`:hover` gauge ring, per-group theme via the `--t` custom property).
+No JavaScript. To edit a study's text or add a card, edit the `<section class="ww-studies">`
+block in the source, then run `build.py`.
 
 ## How the source file is structured (read this first)
 
