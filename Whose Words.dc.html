@@ -431,7 +431,15 @@
       </p>
     </header>
 
-    <div style="height:1px; background:#DDD6CA; margin:40px 0;"></div>
+    <style>
+.ww-exdiv{display:flex;align-items:center;gap:16px;margin:44px 0 20px;color:#7A3E9C;font:600 12px/1 'Inter',sans-serif;letter-spacing:.18em;text-transform:uppercase;}
+.ww-exdiv>span{white-space:nowrap;}
+.ww-exdiv::before,.ww-exdiv::after{content:'';flex:1;height:1px;background:#DDD6CA;}
+.ww-exercise{background:#FFFFFF;border:1px solid #EDE4DA;border-radius:22px;box-shadow:0 22px 55px -26px rgba(122,62,156,.38),0 2px 10px rgba(42,38,34,.04);padding:30px 30px 34px;}
+@media (max-width:560px){.ww-exercise{padding:22px 18px 26px;}}
+</style>
+<div class="ww-exdiv"><span>The exercise</span></div>
+    <div class="ww-exercise">
 
     <!-- ============================================================
          INTRO — sets the scene and explains the mechanic.
@@ -633,6 +641,8 @@
          Always present at the bottom as a reference, kept separate
          from the simulated feeling above.
          ============================================================ -->
+    </div>
+
     <div style="height:1px; background:#DDD6CA; margin:56px 0 40px;"></div>
 
     <section aria-label="Grounded facts about real speech BCIs" class="ww-studies">
