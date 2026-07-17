@@ -699,14 +699,17 @@
 .ww-achip::before,.ww-achip::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#7A3E9C;border-radius:1px;}
 .ww-achip::before{width:12px;height:2px;}.ww-achip::after{width:2px;height:12px;}
 .ww-analysis[open] .ww-achip::after{display:none;}
+.ww-aring{position:absolute;inset:-1.5px;transform:rotate(-90deg);pointer-events:none;overflow:visible;}
+.ww-aring circle{fill:none;stroke:#FFD400;stroke-width:3;stroke-linecap:round;stroke-dasharray:88;stroke-dashoffset:88;filter:drop-shadow(0 0 0 rgba(255,212,0,0)) drop-shadow(0 0 0 rgba(255,212,0,0));transition:stroke-dashoffset .9s ease-out,filter .9s ease-out;}
+.ww-achip:hover .ww-aring circle{stroke-dashoffset:0;filter:drop-shadow(0 0 4px rgba(255,212,0,.9)) drop-shadow(0 0 9px rgba(255,212,0,.55));}
 .ww-abody{padding:4px 22px 24px;border-top:1px solid #EFEAE1;}
 .ww-analysis[open] .ww-abody{animation:ww-card-rise .35s ease;}
 .ww-abody h4{font:600 11px/1.4 'Inter',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#7A3E9C;margin:20px 0 7px;}
 .ww-abody p{font:400 15px/1.68 'Inter',sans-serif;color:#3A3630;margin:0 0 4px;max-width:64ch;}
 .ww-abody .ww-aref{font:400 12.5px/1.6 'Inter',sans-serif;color:#6B645B;margin-top:20px;padding-top:14px;border-top:1px solid #EFEAE1;max-width:64ch;}
-@media (prefers-reduced-motion:reduce){.ww-analysis,.ww-analysis[open] .ww-abody{transition:none;animation:none;}}
+@media (prefers-reduced-motion:reduce){.ww-analysis,.ww-analysis[open] .ww-abody,.ww-aring circle{transition:none;animation:none;}}
 </style>
-<details class="ww-analysis"><summary><span class="ww-atag">Deeper analysis</span><span class="ww-atitle">The written explanation behind this piece</span><span class="ww-asub">The human-AI relationship it explores, and what that means for design.</span><span class="ww-achip"></span></summary><div class="ww-abody">
+<details class="ww-analysis"><summary><span class="ww-atag">Deeper analysis</span><span class="ww-atitle">The written explanation behind this piece</span><span class="ww-asub">The human-AI relationship it explores, and what that means for design.</span><span class="ww-achip"><svg class="ww-aring" viewBox="0 0 31 31"><circle cx="15.5" cy="15.5" r="14"></circle></svg></span></summary><div class="ww-abody">
 <h4>The human-AI relationship being analyzed</h4>
 <p><em>Whose Words?</em> focuses on the relationship between an individual who has lost their ability to verbally communicate and a speech brain-computer interface that attempts to anticipate and complete speech for the individual. The individual bypasses the system to gain an external vocal apparatus. However, each predicted word is also an invisible assertion about the speaker’s identity. The work examines a recurring question. At what point does your speech get lost when saying it requires more of the machine to do the talking?</p>
 <h4>How the artifact communicates that analysis</h4>
